@@ -35,7 +35,7 @@ A backend **user authentication and user management system** built with FastAPI.
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Biruk-Nigusie/User-managment.git
 cd UserManagement
 Create and activate virtual environment
 python -m venv venv
