@@ -9,4 +9,5 @@ class User(SQLModel, table=True):
     provider:str = Field(default="local")
     is_active: bool = Field(default=True)
     is_verified: bool = Field(default=False)
+    password_changed_at: datetime | None = Field(default=None) # None = user never verified the password
     created_at: datetime = Field(default_factory=datetime.now)
